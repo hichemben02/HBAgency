@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <link href="assets/styles.css" rel="stylesheet">
+        <title>HB Agency</title>
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <span>HB Agency</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="agency-nav-link nav-link" href="index.html">Home</a>
+                  <a class="agency-nav-link nav-link" href="hotels.html">Hotels</a>
+                  <a class="agency-nav-link nav-link" href="reviews.html">Reviews</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <section class="hero">
+            <div>
+                <form action="check.html" method="get" class="check-form">
+                    <h2>Check form</h2>
+                    <div class="form-group">
+                        <h6>First Name <span class="required">*</span></h6>
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="firstname" class="form-control" placeholder="Enter first name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Last Name <span class="required">*</span></h6>
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="lastname" class="form-control" placeholder="Enter last name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Phone Number <span class="required">*</span></h6>
+                        <i class="fa fa-phone"></i>
+                        <input type="number" name="phnumber" class="form-control" placeholder="Enter phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Email <span class="required">*</span></h6>
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="email" class="form-control" placeholder="Enter email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Number Of People <span class="required">*</span></h6>
+                        <i class="fa fa-arrow-up"></i>
+                        <input type="number" name="email" class="form-control" placeholder="Enter number of people" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Type Of Room <span class="required">*</span></h6>
+                        <select class="form-control special">
+                            <option value="">Single</option>
+                            <option value="">Double</option>
+                            <option value="">Triple</option>
+                            <option value="">Quad</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Lodging <span class="required">*</span></h6>
+                        <select class="form-control special">
+                            <option value="">Full</option>
+                            <option value="">Half</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Check In <span class="required">*</span></h6>
+                        <i class="fa fa-calendar"></i>
+                        <input type="date" name="checkin" class="form-control" placeholder="Check In" required>
+                    </div>
+
+                    <div class="form-group">
+                        <h6>Check Out <span class="required">*</span></h6>
+                        <i class="fa fa-calendar"></i>
+                        <input type="date" name="checkout" class="form-control" placeholder="Check Out" required>
+
+                    </div>
+
+                    <div class="form-group button">
+                        <button type="submit" class="btn btn-primary">Check</button>
+                    </div>
+                </form>
+            </div>
+          </section>
+
+          <!--footer-->
+          <footer class="footer">
+            <div class="container">
+              <p>Copyright &copy; 2023 HB Agency - Design:
+                <a rel="nofollow" href="#" style="color: var(--color-primary);">Hichem</a>
+              </p>
+            </div>
+          </footer>
+    </body>
+</html>
